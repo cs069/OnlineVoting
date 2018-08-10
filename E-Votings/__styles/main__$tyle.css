@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; background-color:#FFE4B5;
+}
+div#whole { background-color:white; width:1000px; height:100%; margin:auto;  border-radius:10p  x 10px 0px 0px;  box-shadow:0px 0px 20px #fff;}
+
+  div#hEa__d,
+  div#me__nu, 
+  div#bo__dy, 
+  div#FO__OTer { width:1000px; margin:auto; margin-top:2px;}
+  div#FO__OTer { font-size:12px;  position:relative; top:30px; padding:0;}
+  div#FO__OTer p { position:relative; top:30px;}
+a { position:relative; z-index:20;}
+a#active {  box-shadow:0px 0px 20px #000; position:relative; z-index:122; }
+div#hEa__d { height:180px; border-radius:10px 10px 0px 0px; background-image:url('topBackground.png');}
+div#me__nu {height:50px;}
+div#bo__dy {height:400px; /* box-shadow:0px 0px 5px #000; background-image:url('bodyBack.png')*/}
+div#bo__dy div { height:100%; float:left;}
+div#bo__dy div#bo__dy_pub { width:35%;}
+div#bo__dy div#bo__dy_pub div#recents { width:90%; height:30%; position:relative; top:10px;position:relative; left:17px; border:4px solid #FFFFFF; border-radius:10px 10px 0 0;box-shadow:0px 0px 3px #000; float:left;}
+div#bo__dy div#bo__dy_pub div#recents img {  box-shadow:0px 0px 3px #000; margin-left:10px; margin-right:10px; margin-top:10px; float:left; width:30%; height:80%;}
+div#bo__dy div#bo__dy_pub div#recents p { padding:10px; text-align:justify; font-size:12px;}
+div#bo__dy div#bo__dy_pub div#recents p a { text-decoration:none; color: #0066CC;}
+div#bo__dy div#bo__dy_pub div#recents p a:hover { color: #33CC99;}
+div#bo__dy div#bo__dy_pub div#sliding__imgs {  width:100%; height:50%; margin-top:25px;}
+div#bo__dy div#bo__dy_pub div#sliding__imgs img { width:100%; height:100%;}
+div#bo__dy div#bo__dy_pub div#sliding__imgs img:hover,div#bo__dy div#bo__dy_pub div:hover#recents { box-shadow:0 0 30px #000;transform: scale(1.03,1.03);
+ -ms-transform: scale(1.03,1.03); /* IE 9 */
+ -webkit-transform: scale(1.03,1.03); /* Safari and Chrome */
+ -o-transform: scale(1.03,1.03); /* Opera */
+ -moz-transform: scale(1.03,1.03); /* Firefox */ }
+div#bo__dy  form {float: right;margin: 34px 20px 10px 0;overflow: hidden;padding: 0;}
+div#bo__dy  form#vote{ float:left; width:100%}
+div#bo__dy  form input {background: url('form.png') no-repeat;border: 0;display: block;float: left;height: 20px;margin: 0;padding: 0;}
+div#bo__dy  form .desing {background-position: -20px -42px;line-height: 24px;padding: 0 0 0 10px;width: 212px;}
+div#bo__dy  form #searchBtn {background-position: -21px -73px;cursor: pointer;width: 43px;}
+div#bo__dy  form #searchBtn:hover { background-position: -21px -110px; }
+.legend { font-size:12px; position:relative; float: left;}
+fieldset {border:1px solid #CCCCCC; border-radius:5px;}
+legend  { background-color:#FFFFFF; padding:0 10px 0 10px; box-shadow:0px 5px 8px #000;}
+div#bo__dy  form #votercard { position:relative; left:20px; width: 230px;}
+div#bo__dy  form #userName { position:relative; left:65px; width: 280px;}
+div#bo__dy  form #password { position:relative; left:57px; width: 230px;}
+div#bo__dy  form #GOBtn { background-position: -85px -73px; cursor:auto;width: 50px;}
+div#bo__dy  form #GOBtn:hover  { background-position: -87px -110px; cursor:auto;width: 50px;}
+div#bo__dy  form #SaveBTN { background-position: -140px -73px; cursor:auto;width: 50px;}  
+div#bo__dy  form #SaveBTN:hover { background-position: -142px -110px; cursor:auto;width: 50px;}
+div#bo__dy  form #canselBTN {background-position: -205px -73px; cursor:auto;width: 50px;}
+div#bo__dy  form #canselBTN:hover {background-position: -207px -110px; cursor:auto;width: 50px;}
+div#bo__dy fieldset { box-shadow:0px 1px 2px #fff;}
+div#bo__dy div#bo__dy_conts { width:63%; margin-left:10px; position:relative; top:15px;}
+div#bo__dy div#bo__dy_conts div { margin-left:4px; width:100%;}
+div#bo__dy div#bo__dy_conts div#HEa__DER{ height:10%; top: 3px}
+div#bo__dy div#bo__dy_conts div#PiC__cont{ height:100%; overflow:hidden;}
+div#bo__dy div#bo__dy_conts div#PiC__cont .imageslider{ width:96%; height:100%;display:block; margin:0; padding:0;}
+div#bo__dy div#bo__dy_conts div#PiC__cont .slides{ width:630px ;height:100% ;float:left; list-style:none;}
+div#bo__dy div#bo__dy_conts div#CO__nt{ height:30%;}
+div#bo__dy div#bo__dy_conts h2,div#bo__dy div#bo__dy_conts p  {
+  margin:0;
+  text-align:center; 
+  color:#FFFFFF;
+    background-image:url('p_back.png');
+   
+}
+div#bo__dy div#bo__dy_conts p.page2, div#bo__dy div#bo__dy_conts p.page2 ol li { color: #666666; background:none;}
+div#bo__dy div#bo__dy_conts h2 {padding:15px; position:relative; z-index:12;  box-shadow:0px 0px 5px #000;}
+div#bo__dy div#bo__dy_conts p {padding:10px; text-align:justify; background-position:center; position:relative; z-index:13;}
+div#bo__dy div#bo__dy_conts img {border:5px solid #fff; width:97%; position:relative; left:5px; z-index:10; box-shadow:0px 0px 10px #000;}
+
+div#FO__OTer {height:70px; border-radius:0px 0px 10px 10px; background-image:url('backBackground.png'); background-repeat: repeat-x; background-position:bottom; border-bottom:1px solid #ffaa00;}
+  div#lo__go, 
+  div#ba__nner, 
+  div#oth__er { float:left; height:100%; margin-left:1px;}
+    div#lo__go {width:19%;}
+div#ba__nner {width:80%;}
+div#menu { margin-left:12%;}
+div#menu ul{ box-shadow:0px 0px 3px #000;}
+div#menu ul ul li a { width:136px;}
+h3 {font-size:14px;}
+
